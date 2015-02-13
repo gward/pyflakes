@@ -851,7 +851,7 @@ class TestSpecialAll(TestCase):
 
 class Python26Tests(TestCase):
     """
-    Tests for checking of syntax which is valid in PYthon 2.6 and newer.
+    Tests for checking of syntax which is valid in Python 2.6 and newer.
     """
 
     @skipIf(version_info < (2, 6), "Python >= 2.6 only")
